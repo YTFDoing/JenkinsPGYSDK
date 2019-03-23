@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - JenkinsPGYSDK (0.1.0)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - JenkinsPGYSDK (from `../`)
+  - Specta
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  JenkinsPGYSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  JenkinsPGYSDK: 9bacaaff5407a3108205b78e8debb157e7290138
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 2c4d5e367d67bb96f8a44fa59b6e20fc7a5f9764
+
+COCOAPODS: 1.6.0

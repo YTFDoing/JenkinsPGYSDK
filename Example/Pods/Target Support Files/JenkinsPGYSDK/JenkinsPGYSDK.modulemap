@@ -1,0 +1,6 @@
+framework module JenkinsPGYSDK {
+  umbrella header "JenkinsPGYSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
