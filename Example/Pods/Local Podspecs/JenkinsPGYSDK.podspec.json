@@ -1,22 +1,28 @@
 {
   "name": "JenkinsPGYSDK",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of JenkinsPGYSDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "obtain application informations frome PGY",
   "homepage": "https://github.com/hsdoing@163.com/JenkinsPGYSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "hsdoing@163.com": "2885870415@qq.com"
+    "hsdoing@163.com": "HS"
   },
   "source": {
-    "git": "https://github.com/hsdoing@163.com/JenkinsPGYSDK.git",
-    "tag": "0.1.0"
+    "git": "git@github.com:YTFDoing/JenkinsPGYSDK.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JenkinsPGYSDK/Classes/**/*"
+  "source_files": "JenkinsPGYSDK/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "YTKNetwork": [
+
+    ]
+  }
 }

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TCNetworkManager.h"
 
 FOUNDATION_EXPORT double JenkinsPGYSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char JenkinsPGYSDKVersionString[];

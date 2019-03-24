@@ -4,7 +4,7 @@ platform :ios, '8.0'
 
 target 'JenkinsPGYSDK_Example' do
   pod 'JenkinsPGYSDK', :path => '../'
-
+  pod 'YTKNetwork'
   target 'JenkinsPGYSDK_Tests' do
     inherit! :search_paths
 

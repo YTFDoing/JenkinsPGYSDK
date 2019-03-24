@@ -1,27 +1,50 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - Expecta (1.0.6)
-  - JenkinsPGYSDK (0.1.0)
+  - JenkinsPGYSDK (1.0.0):
+    - YTKNetwork
   - Specta (1.0.7)
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
   - Expecta
   - JenkinsPGYSDK (from `../`)
   - Specta
+  - YTKNetwork
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
     - Expecta
     - Specta
+    - YTKNetwork
 
 EXTERNAL SOURCES:
   JenkinsPGYSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  JenkinsPGYSDK: 9bacaaff5407a3108205b78e8debb157e7290138
+  JenkinsPGYSDK: 9bb7a10a38180fd93e48eb8030128dd0ac4f756a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
 
-PODFILE CHECKSUM: 2c4d5e367d67bb96f8a44fa59b6e20fc7a5f9764
+PODFILE CHECKSUM: 3e354b9851d3c9202c34c0a5318cd267a1ccfa1b
 
 COCOAPODS: 1.6.0
